@@ -1,0 +1,16 @@
+Files initial/build.gradle and blank_3.2.4_forge/build.gradle differ
+Files initial/gradle/wrapper/gradle-wrapper.jar and blank_3.2.4_forge/gradle/wrapper/gradle-wrapper.jar differ
+Files initial/gradle/wrapper/gradle-wrapper.properties and blank_3.2.4_forge/gradle/wrapper/gradle-wrapper.properties differ
+Files initial/gradle.properties and blank_3.2.4_forge/gradle.properties differ
+Files initial/gradlew and blank_3.2.4_forge/gradlew differ
+Files initial/grails-app/assets/stylesheets/grails.css and blank_3.2.4_forge/grails-app/assets/stylesheets/grails.css differ
+Files initial/grails-app/conf/application.yml and blank_3.2.4_forge/grails-app/conf/application.yml differ
+Files initial/grails-app/conf/logback.groovy and blank_3.2.4_forge/grails-app/conf/logback.groovy differ
+Only in blank_3.2.4_forge/grails-app: domain
+Only in blank_3.2.4_forge/grails-app: services
+Only in blank_3.2.4_forge/grails-app: taglib
+Only in blank_3.2.4_forge/grails-app: utils
+Files initial/grailsw and blank_3.2.4_forge/grailsw differ
+Files initial/grails-wrapper.jar and blank_3.2.4_forge/grails-wrapper.jar differ
+Only in initial/: settings.gradle
+Only in blank_3.2.4_forge/: src

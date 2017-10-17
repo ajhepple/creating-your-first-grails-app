@@ -12,4 +12,9 @@ class Vehicle {
         year min: 1900
         name maxSize: 255
     }
+
+    String toString() {
+        "${make} ${model} from ${year} called ${name}"
+    }
+
 }

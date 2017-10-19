@@ -2,6 +2,13 @@
 <html>
 <head>
     <meta name='layout' content='public'/>
+    <asset:javascript src="jquery-3.2.1.min.js" />
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            console.log("jQuery 3.2.1 loaded!");
+        });
+    </script>
 </head>
 <body>
     <div id="content" role="main">

@@ -16,6 +16,10 @@
         </div>
         <div id="show-vehicle" class="content scaffold-show" role="main">
             <h1><g:message code="default.show.label" args="[entityName]" /></h1>
+
+            <!-- Demonstrate the use of the formatNumber tag -->
+            <h1>Estimated Value: <g:formatNumber number="${estimatedValue}" type="currency" currencyCode="GBP" /></h1>
+
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>

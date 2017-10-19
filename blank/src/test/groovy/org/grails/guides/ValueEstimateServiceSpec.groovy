@@ -10,13 +10,27 @@ import spock.lang.Specification
 class ValueEstimateServiceSpec extends Specification {
 
     def setup() {
+        mockDomain Make
+        mockDomain Model
+        mockDomain Vehicle
     }
 
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void testEstimateRetrieval() {
+        given: 'a vehicle'
+        def make = new Make(name: 'Ferrari')
+        def model = new Model(name: 'F13', make: make)
+        def vehicle = new Vehicle(year: 2000, make: make, model: model, name: 'Red Racer')
+    
+        when: 'estimate service is called'
+        def estimate = service.getEstimate(vehicle)
+    
+        then: 'a non-zero result is returned'
+        estimate > 0
+    
+        and: 'estimate is not too large'
+        estimate < 1000000
     }
 }
